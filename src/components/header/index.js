@@ -59,7 +59,7 @@ export const Header = () => {
         <div style={{ color: "white", paddingTop: "1rem" }}>
           I am fan of: {fan}
         </div>
-        <button onClick={handleSetTheme}> LightTheme </button>
+        <button onClick={handleSetTheme}> {theme} mode </button>
       </div>
     </header>
   );
